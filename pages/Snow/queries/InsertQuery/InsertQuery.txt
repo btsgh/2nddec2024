@@ -1,0 +1,12 @@
+INSERT INTO PUBLIC.PERSONS (
+	PERSONID,
+	FIRSTNAME,
+	CITY,
+	LASTNAME,
+	ADDRESS)
+VALUES (
+	'{{insert_form.formData.PERSONID}}',
+	'{{insert_form.formData.FIRSTNAME}}',
+	'{{insert_form.formData.CITY}}',
+	'{{insert_form.formData.LASTNAME}}',
+	'{{insert_form.formData.ADDRESS}}');

@@ -1,0 +1,6 @@
+UPDATE PUBLIC.PERSONS SET
+		FIRSTNAME = '{{update_form.fieldState.FIRSTNAME.isVisible ? update_form.formData.FIRSTNAME : update_form.sourceData.FIRSTNAME}}',
+		CITY = '{{update_form.fieldState.CITY.isVisible ? update_form.formData.CITY : update_form.sourceData.CITY}}',
+    LASTNAME = '{{update_form.fieldState.LASTNAME.isVisible ? update_form.formData.LASTNAME : update_form.sourceData.LASTNAME}}',
+		ADDRESS = '{{update_form.fieldState.ADDRESS.isVisible ? update_form.formData.ADDRESS : update_form.sourceData.ADDRESS}}'
+WHERE PERSONID = {{data_table.selectedRow.PERSONID}};

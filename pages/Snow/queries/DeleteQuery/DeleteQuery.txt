@@ -1,0 +1,2 @@
+DELETE FROM PUBLIC.PERSONS
+  WHERE PERSONID = {{data_table.triggeredRow.PERSONID}};
