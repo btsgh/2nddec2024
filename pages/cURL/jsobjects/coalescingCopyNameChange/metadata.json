@@ -1,9 +1,9 @@
 {
-  "gitSyncId": "674d85a9a8a18a36c0294550_2a3698b1-d458-448a-9443-46cde30fb741",
-  "id": "Page1_typecasting",
+  "gitSyncId": "674d85a9a8a18a36c0294550_0eacb72f-d9fa-4879-812d-8c8f98678a9a",
+  "id": "cURL_coalescingCopyNameChange",
   "unpublishedCollection": {
-    "name": "typecasting",
-    "pageId": "Page1",
+    "name": "coalescingCopyNameChange",
+    "pageId": "cURL",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "variables": [
