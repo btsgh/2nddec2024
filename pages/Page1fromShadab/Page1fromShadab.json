@@ -1,7 +1,7 @@
 {
   "gitSyncId": "674d84b45815aa46e59fa85f_554ecfc4-79ff-499f-8a73-3c400f01951a",
   "unpublishedPage": {
-    "customSlug": "this-is-the-url-for-page-one-in-shadab",
+    "customSlug": "this-is-the-url-for-page-one-in-shadabs",
     "layouts": [
       {
         "dsl": {
@@ -27,7 +27,7 @@
         }
       }
     ],
-    "name": "Page1",
-    "slug": "page1"
+    "name": "Page1fromShadab",
+    "slug": "page1fromshadab"
   }
 }
